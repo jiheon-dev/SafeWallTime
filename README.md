@@ -3,13 +3,6 @@
 SafeWallTime is a Python framework for uncertainty-aware runtime prediction in
 HPC job scheduling. 
 
-The default UARP flow is intentionally separate from S-CQR:
-
-```text
-UARP:        trace -> predictor (Q0.50, Q0.99, uncertainty) -> margin -> scheduler
-UARP + S-CQR: trace -> predictor -> S-CQR calibration -> margin -> scheduler
-```
-
 ## Install
 
 The framework itself has only NumPy and pandas dependencies. Install LightGBM
@@ -39,7 +32,3 @@ pipeline = UARPPipeline(
 )
 result = pipeline.run("path/to/trace.swf")
 ```
-
-## License
-
-This project is released under the [MIT License](LICENSE).
