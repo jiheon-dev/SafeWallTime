@@ -32,3 +32,21 @@ pipeline = UARPPipeline(
 )
 result = pipeline.run("path/to/trace.swf")
 ```
+
+
+## Citation
+
+If you use this code, please cite the following papers:
+
+```
+@article{choi2026uarp,
+  title={UARP: uncertainty-aware runtime prediction for preventing scheduler termination under Wallclock constraints in HPC},
+  author={Choi, Jiheon and Oh, Sangyoon},
+  journal={The Journal of Supercomputing},
+  volume={82},
+  number={5},
+  pages={292},
+  year={2026},
+  publisher={Springer}
+}
+```
