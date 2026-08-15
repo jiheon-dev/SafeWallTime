@@ -50,3 +50,15 @@ If you use this code, please cite the following papers:
   publisher={Springer}
 }
 ```
+
+```
+@InProceedings{choi2026scqr,
+author="Choi, Jiheon and Oh, Sangyoon",
+title="S-CQR: Stratified Calibration for Runtime Prediction in HPC Backfill Scheduling",
+booktitle="Euro-Par 2026: Parallel Processing",
+year="2027",
+publisher="Springer Nature Switzerland",
+pages="316--330",
+isbn="978-3-032-35251-4"
+}
+```
